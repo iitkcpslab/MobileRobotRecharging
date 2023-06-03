@@ -1,0 +1,31 @@
+#OBJS_APPROX = primitive.o readinputs.o create_graph.o approx_vc.o main.o
+OBJS_APPROX = primitive.o readinputs.o create_graph.o main.o
+
+CC = g++ -std=c++11
+CFLAGS = -Wall -c
+LFLAGS = -Wall
+all = model_approx
+
+
+model_approx : $(OBJS_APPROX)
+	$(CC) $(LFLAGS) $(OBJS_APPROX) -o model_approx
+
+primitive.o : primitive.h primitive.cpp
+	$(CC) $(CFLAGS) primitive.cpp
+
+readinputs.o : primitive.h readinputs.h readinputs.cpp
+	$(CC) $(CFLAGS) readinputs.cpp
+
+create_graph.o : primitive.h readinputs.h create_graph.h create_graph.cpp
+	$(CC) $(CFLAGS) create_graph.cpp
+
+#approx_vertex_cover.o : primitive.h readinputs.h approx_vc.h approx_vc.cpp
+
+main.o : primitive.h readinputs.h main.cpp
+	$(CC) $(CFLAGS) main.cpp
+
+.PHONY: clean
+clean : 
+	rm -f *.o
+	rm -f model_approx
+

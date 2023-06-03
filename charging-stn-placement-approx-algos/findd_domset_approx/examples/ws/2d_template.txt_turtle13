@@ -1,0 +1,95 @@
+ID:1
+q_i:[0]
+q_f:[0]
+pos_f:[1, 0]
+cost:1
+duration:0.8
+swath: [0, 0]; [1, 0]
+
+ID:2
+q_i:[0]
+q_f:[0]
+pos_f:[0, -1]
+cost:1
+duration:0.8
+swath: [0, 0]; [0, -1]
+
+ID:3
+q_i:[0]
+q_f:[0]
+pos_f:[-1, 0]
+cost:1
+duration:0.8
+swath: [0, 0]; [-1, 0]
+
+ID:4
+q_i:[0]
+q_f:[0]
+pos_f:[0, 1]
+cost:1
+duration:0.8
+swath: [0, 0]; [0, 1]
+
+ID:5
+q_i:[0]
+q_f:[0]
+pos_f:[1, 1]
+cost:2
+duration:0.8
+swath: [0, 0]; [1, 1]
+
+ID:6
+q_i:[0]
+q_f:[0]
+pos_f:[-1, 1]
+cost:2
+duration:0.8
+swath: [0, 0]; [-1, 1]
+
+ID:7
+q_i:[0]
+q_f:[0]
+pos_f:[-1, -1]
+cost:2
+duration:0.8
+swath: [0, 0]; [-1, -1]
+
+ID:8
+q_i:[0]
+q_f:[0]
+pos_f:[1, -1]
+cost:2
+duration:0.8
+swath: [0, 0]; [1, -1]
+
+ID:9
+q_i:[0]
+q_f:[0]
+pos_f:[2, 0]
+cost:2
+duration:0.8
+swath: [0, 0]; [2, 0]
+
+ID:10
+q_i:[0]
+q_f:[0]
+pos_f:[0, 2]
+cost:2
+duration:0.8
+swath: [0, 0]; [0, 2]
+
+ID:11
+q_i:[0]
+q_f:[0]
+pos_f:[-2, 0]
+cost:2
+duration:0.8
+swath: [0, 0]; [-2, 0]
+
+ID:12
+q_i:[0]
+q_f:[0]
+pos_f:[0, -2]
+cost:2
+duration:0.8
+swath: [0, 0]; [0, -2]

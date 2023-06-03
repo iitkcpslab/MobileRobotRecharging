@@ -1,0 +1,87 @@
+#include <iostream>
+using namespace std;
+
+
+void multiplySquare (int** arr, int rows)
+{
+  int cols=rows;
+
+  for(unsigned int i=0; i<rows; i++)
+  {
+    for(unsigned int j=0; j<cols; j++)
+    {
+       //arr[i][j]=0;
+       for(unsigned int k=0; k<rows; k++)
+       {
+	  arr[i][j] += arr[i][k]*arr[k][j];
+       }
+    }
+  }
+  return;
+}
+
+
+void printMatrix (int** arr, int rows)
+{
+    int cols=rows;
+    
+    for(unsigned int i=0; i<rows; i++)
+    {
+      for(unsigned int j=0; j<cols; j++)
+      {
+        //cout << " " << arr[i][j];
+	printf(" %2d", arr[i][j]);
+      }      
+      cout << endl;
+    }
+    return;
+}
+
+
+void initializeMatrix (int** arr, int cols)
+{
+  arr = (int**)malloc(sizeof(int*) * cols);
+  for(unsigned int i=0; i<rows; i++)
+  {
+    arr[i] = (int*)malloc(sizeof(int) * cols);
+    // populate with values
+    for(unsigned int j=0; j<cols; j++)
+    {
+      arr[i][j] = 1;
+    }
+    cout << endl;
+  }
+  return;
+}
+
+
+int main()
+{
+  int rows, cols, val=1;
+  rows = cols = 5;
+/*
+  int** arr = (int**)malloc(sizeof(int*) * rows);
+  for(unsigned int i=0; i<rows; i++)
+  {
+    arr[i] = (int*)malloc(sizeof(int) * cols);
+    // populate with values
+    for(unsigned int j=0; j<cols; j++)
+    {
+      //arr[i][j] = val++;
+      arr[i][j] = 1;
+      //cout << " " << arr[i][j];
+    }
+    cout << endl;
+  }
+*/
+  printMatrix (arr, rows);
+
+  int** res = (int**)malloc(sizeof(int*) * rows);
+  for(unsigned int j=2; j<=8; j++)
+  {
+	  multiplySquare(arr, rows);
+  }
+
+  printMatrix (arr, rows);
+  return 0;
+}

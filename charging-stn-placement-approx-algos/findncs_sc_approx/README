@@ -1,0 +1,34 @@
+HOW TO RUN:
+-----------
+a) Change directory to <approach_>/examples
+
+b) Following input files are needed in the "examples" directory:
+     workspace.txt  obstacle.txt  2d_template.txt 
+
+c) Execute   ./run.sh model_approx
+
+d) Output will appear on the console
+
+
+INPUT FILES:
+------------
+Following input files contain inputs to the program. We mention the attributes file-wise.
+
+1. workspace.txt
+<max x coordinate>
+<max y coordinate>
+<max d length>
+
+2. obstacle.txt contains obstacle grid positions (2-D)
+
+3. 2d_template.txt contains motion primitive details of a given robot.
+Each primitive contains the following :
+<primitive id>
+<initial velocity>
+<final velocity>
+<displacement of [x, y] distance from current position>
+<cost of applying this primitive>
+<time required to apply this primitive>
+<swath locations from the current location, while applied>
+
+
