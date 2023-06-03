@@ -39,11 +39,9 @@ HOW TO RUN:
 a) Move to directory  ``energy-aware-temporal-logic-motion-planning/<approach-name>/examples''.
 
 b) Following input files are needed in the ``energy-aware-temporal-logic-motion-planning/<approach-name>/examples'' directory:
-     workspace.txt  obstacle.txt  2d_template.txt .
+     workspace.txt  obstacle.txt  2d_template.txt input
 
-b.a) Some input directories are already available in ``mobile-recharger-path-planning-scheduling/<approach_name>/examples'' directory. Files can be copied from these directories to  ``mobile-recharger-path-planning-scheduling/<approach-name>/example'' directory.  
-
-c) Execute  ./run.sh tool\_z3  from ``IROS2021-Submission-52/<approach-name>/examples'' directory.
+c) Execute  ./run.sh tool\_z3  from ``energy-aware-temporal-logic-motion-planning/<approach-name>/examples'' directory.
 
 d) Output will appear on the console.
 
