@@ -1,0 +1,33 @@
+OBJS_Z3 = primitive.o readinputs.o writeconstraints_workers.o writeconstraints_recharger.o writeconstraints_recharger_optimal.o main_z3.o
+
+CC = g++
+CFLAGS = -Wall -c
+LFLAGS = -Wall
+all = tool_z3
+
+
+tool_z3 : $(OBJS_Z3)
+	$(CC) $(LFLAGS) $(OBJS_Z3) -o tool_z3
+
+primitive.o : primitive.h primitive.cpp
+	$(CC) $(CFLAGS) primitive.cpp
+
+readinputs.o : primitive.h readinputs.h readinputs.cpp
+	$(CC) $(CFLAGS) readinputs.cpp
+
+writeconstraints_workers.o : primitive.h readinputs.h writeconstraints_workers.h writeconstraints_workers.cpp
+	$(CC) $(CFLAGS) writeconstraints_workers.cpp
+
+writeconstraints_recharger.o : primitive.h readinputs.h writeconstraints_recharger.h writeconstraints_recharger.cpp
+	$(CC) $(CFLAGS) writeconstraints_recharger.cpp
+
+writeconstraints_recharger_optimal.o : primitive.h readinputs.h writeconstraints_recharger.h writeconstraints_recharger_optimal.h writeconstraints_recharger_optimal.cpp
+	$(CC) $(CFLAGS) writeconstraints_recharger_optimal.cpp
+
+main_z3.o : primitive.h readinputs.h writeconstraints_workers.h writeconstraints_recharger.h writeconstraints_recharger_optimal.h main_z3.cpp
+	$(CC) $(CFLAGS) main_z3.cpp
+
+.PHONY: clean
+clean : 
+	rm -f *.o
+	rm -f tool_*

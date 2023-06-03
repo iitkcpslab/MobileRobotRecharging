@@ -1,0 +1,167 @@
+ID:0
+q_i:[0]
+q_f:[0]
+pos_f:[0, 0]
+cost:0
+duration:0.8
+swath: [0, 0]
+
+ID:1
+q_i:[0]
+q_f:[0]
+pos_f:[1, 0]
+cost:2
+duration:0.8
+swath: [0, 0]; [1, 0]
+
+ID:2
+q_i:[0]
+q_f:[0]
+pos_f:[0, -1]
+cost:2
+duration:0.8
+swath: [0, 0]; [0, -1]
+
+ID:3
+q_i:[0]
+q_f:[0]
+pos_f:[-1, 0]
+cost:2
+duration:0.8
+swath: [0, 0]; [-1, 0]
+
+ID:4
+q_i:[0]
+q_f:[0]
+pos_f:[0, 1]
+cost:2
+duration:0.8
+swath: [0, 0]; [0, 1]
+
+ID:5
+q_i:[0]
+q_f:[0]
+pos_f:[1, 1]
+cost:3
+duration:0.8
+swath: [0, 0]; [1, 1]
+
+ID:6
+q_i:[0]
+q_f:[0]
+pos_f:[-1, 1]
+cost:3
+duration:0.8
+swath: [0, 0]; [-1, 1]
+
+ID:7
+q_i:[0]
+q_f:[0]
+pos_f:[-1, -1]
+cost:3
+duration:0.8
+swath: [0, 0]; [-1, -1]
+
+ID:8
+q_i:[0]
+q_f:[0]
+pos_f:[1, -1]
+cost:3
+duration:0.8
+swath: [0, 0]; [1, -1]
+
+ID:9
+q_i:[0]
+q_f:[0]
+pos_f:[2, 0]
+cost:3
+duration:0.8
+swath: [0, 0]; [1, 0]; [2, 0]
+
+ID:10
+q_i:[0]
+q_f:[0]
+pos_f:[0, 2]
+cost:3
+duration:0.8
+swath: [0, 0]; [0, 1]; [0, 2]
+
+ID:11
+q_i:[0]
+q_f:[0]
+pos_f:[-2, 0]
+cost:3
+duration:0.8
+swath: [0, 0]; [-1, 0]; [-2, 0]
+
+ID:12
+q_i:[0]
+q_f:[0]
+pos_f:[0, -2]
+cost:3
+duration:0.8
+swath: [0, 0]; [0, -1]; [0, -2]
+
+ID:13
+q_i:[0]
+q_f:[0]
+pos_f:[2, 2]
+cost:4
+duration:0.8
+swath: [0, 0]; [1, 1]; [2, 2]
+
+ID:14
+q_i:[0]
+q_f:[0]
+pos_f:[-2, 2]
+cost:4
+duration:0.8
+swath: [0, 0]; [-1, 1]; [-2, 2]
+
+ID:15
+q_i:[0]
+q_f:[0]
+pos_f:[-2, -2]
+cost:4
+duration:0.8
+swath: [0, 0]; [-1, -1]; [-2, -2]
+
+ID:16
+q_i:[0]
+q_f:[0]
+pos_f:[2, -2]
+cost:4
+duration:0.8
+swath: [0, 0]; [1, -1]; [2, -2]
+
+ID:17
+q_i:[0]
+q_f:[0]
+pos_f:[3, 0]
+cost:4
+duration:0.8
+swath: [0, 0]; [1, 0]; [2, 0]; [3, 0]
+
+ID:18
+q_i:[0]
+q_f:[0]
+pos_f:[0, 3]
+cost:4
+duration:0.8
+swath: [0, 0]; [0, 1]; [0, 2]; [0, 3]
+
+ID:19
+q_i:[0]
+q_f:[0]
+pos_f:[-3, 0]
+cost:4
+duration:0.8
+swath: [0, 0]; [-1, 0]; [-2, 0]; [-3, 0]
+
+ID:20
+q_i:[0]
+q_f:[0]
+pos_f:[0, -3]
+cost:4
+duration:0.8
+swath: [0, 0]; [0, -1]; [0, -2]; [0, -3]
