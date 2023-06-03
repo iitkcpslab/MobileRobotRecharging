@@ -1,7 +1,8 @@
 
 # Mobile Recharger Path Planning and Recharge Scheduling in a Multi-Robot Environment
 
-Published in: IROS-2021 .  Authors: Tanmoy Kundu, Indranil Saha
+Published in: IROS-2021 .  
+Authors: Tanmoy Kundu, Indranil Saha. Both of them are with the Department of Computer Science and Engineering, IIT Kanpur.
 
 In many multi-robot applications, mobile worker
 robots are often engaged in performing some tasks repetitively
