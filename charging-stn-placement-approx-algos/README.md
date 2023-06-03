@@ -1,3 +1,5 @@
+# Approximation Algorithms for Charging Station Placement for Mobile Robots
+
 This project designs approximation algorithms for finding charging station placement with complex robot primitives and complex workspace designs.
 
 findd\_domset\_approx contains approximation algorithms to find the near-optimal value of the battery threshold (d) for a given value of number of charging stations (ncs). This algorithm is based on the known approximation algorithm for finding the dominating set in a graph.
