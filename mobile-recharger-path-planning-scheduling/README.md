@@ -4,6 +4,9 @@
 Published in: IROS-2021 .  
 Authors: Tanmoy Kundu, Indranil Saha. Both of them are with the Department of Computer Science and Engineering, IIT Kanpur.
 
+The paper can be found in this link : https://ieeexplore.ieee.org/document/9636078
+
+
 In many multi-robot applications, mobile worker
 robots are often engaged in performing some tasks repetitively
 by following pre-computed trajectories. As these robots are
