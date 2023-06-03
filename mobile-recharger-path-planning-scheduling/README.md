@@ -41,8 +41,6 @@ a) Move to directory  ``mobile-recharger-path-planning-scheduling/<approach-name
 b) Following input files are needed in the ``mobile-recharger-path-planning-scheduling/<approach-name>/examples'' directory:
      workspace.txt  obstacle.txt  2d_template.txt  rob1_traj.txt  rob2_traj.txt  rob3_traj.txt  rob4_traj.txt  rob5_traj.txt  rob6_traj.txt .
 
-b.a) Some input directories are already available in ``mobile-recharger-path-planning-scheduling/<approach_name>/examples'' directory. Files can be copied from these directories to  ``mobile-recharger-path-planning-scheduling/<approach-name>/example'' directory.  
-
 c) Execute  ./run.sh tool_z3  from ``IROS2021-Submission-52/<approach-name>/examples'' directory.
 
 d) Output will appear on the console.
