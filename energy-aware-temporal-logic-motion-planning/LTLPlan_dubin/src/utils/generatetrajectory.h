@@ -1,0 +1,10 @@
+void printTimeDifference(double , double );
+int generateTrajectory(prim_vec_t , prim_cost_t , pos_vec_t , workspace_t );
+int generateTrajectory2(prim_vec_t , prim_cost_t , pos_vec_t , workspace_t );
+void optimizeTrajectory(prim_vec_t , prim_cost_t , pos_vec_t , workspace_t , int );
+vector<position> getTrajectory(string);
+int getLoopPointIndex(string);
+int getEndPointIndex(string);
+float getTrajectoryCost(string, string);
+void printTrajectoryInfo(string);
+void matlab_code_generator (workspace_t, pos_vec_t, vector<position>, string);

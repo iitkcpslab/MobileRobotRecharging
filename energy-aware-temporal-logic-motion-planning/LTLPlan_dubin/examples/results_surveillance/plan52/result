@@ -1,0 +1,54 @@
+Trajectory Length = 21
+
+Final Iteration Time = 0h 5m 10s
+
+Cost Before Optimization = 46.5995
+
+Total Time Before Optimization = 0h 15m 47s
+
+Cost After Optimization = 44.729
+
+Total Time For Optimization = 3h 49m 54s
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+min2_min_cost_diff = 0.474667
+
+max_total_cost = 46.5995
+min_total_cost = 33.6
+current_cost  = 40.0997
+
+Timeout is set at 3600s.
+$$$$$$$$ 21 unsat
+max_total_cost = 46.5995
+min_total_cost = 40.0997
+current_cost  = 43.3496
+
+Timeout is set at 3600s.
+$$$$$$$$ 21 
+unknown output from z3..
+max_total_cost = 46.5995
+min_total_cost = 43.3496
+current_cost  = 44.9745
+
+Timeout is set at 3600s.
+$$$$$$$$ 21 sat
+max_total_cost = 44.9745
+min_total_cost = 43.3496
+current_cost  = 44.1621
+
+Timeout is set at 3600s.
+$$$$$$$$ 21 
+unknown output from z3..
+max_total_cost = 44.9745
+min_total_cost = 44.1621
+current_cost  = 44.5683
+
+Timeout is set at 3600s.
+$$$$$$$$ 21 
+unknown output from z3..
+max_total_cost = 44.9745
+min_total_cost = 44.5683
+current_cost  = 44.7714
+Cost  = 44.729

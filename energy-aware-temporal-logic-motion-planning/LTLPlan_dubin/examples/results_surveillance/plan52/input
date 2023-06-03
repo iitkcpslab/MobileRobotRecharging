@@ -1,0 +1,3 @@
+([] (<> (r1gather2 /\ (<> r1upload2)))) /\
+([] (<> (r2gather3 /\ (<> r2upload1))))
+

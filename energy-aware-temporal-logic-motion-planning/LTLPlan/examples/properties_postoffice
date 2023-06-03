@@ -1,0 +1,28 @@
+(<>[18,22] (([][0,1] r1deliver1) /\ <> ([] r1parking1))) /\
+(<>[8,12] (([][0,1] r2deliver2) /\ <> ([] r2parking2))) /\
+(<>[6,10] (([][0,1] r3deliver3) /\ <> ([] r3parking3))) /\
+(<>[6,12] ([][0,2] (r1collect1 \/ r2collect1 \/ r3collect1))) /\
+([] (r1collect1 -> (<>[0,6] ((([][0,1] r1mailbox1) \/ ([][0,1] r1mailbox2)) /\ <> ([] r1parking1))))) /\
+([] (r2collect1 -> (<>[0,6] ((([][0,1] r2mailbox1) \/ ([][0,1] r2mailbox2)) /\ <> ([] r2parking2))))) /\
+([] (r3collect1 -> (<>[0,6] ((([][0,1] r3mailbox1) \/ ([][0,1] r3mailbox2)) /\ <> ([] r3parking3))))) /\
+(<>[12,18] ([][0,2] (r1collect2 \/ r2collect2 \/ r3collect2))) /\
+([] (r1collect2 -> (<>[0,6] ((([][0,1] r1mailbox1) \/ ([][0,1] r1mailbox2)) /\ <>([] r1parking1))))) /\
+([] (r2collect2 -> (<>[0,6] ((([][0,1] r2mailbox1) \/ ([][0,1] r2mailbox2)) /\ <>([] r2parking2))))) /\
+([] (r3collect2 -> (<>[0,6] ((([][0,1] r3mailbox1) \/ ([][0,1] r3mailbox2)) /\ <>([] r3parking3)))))
+
+
+(<>[18,22] (([][0,1] r1deliver1) /\ <> ([] r1parking1))) /\
+(<>[8,12] (([][0,1] r2deliver2) /\ <> ([] r2parking2))) /\
+(<>[6,10] (([][0,1] r3deliver3) /\ <> ([] r3parking3))) /\
+(<>[8,12] (([][0,1] r4deliver4) /\ <> ([] r4parking4))) /\
+(<>[6,12] ([][0,2] (r1collect1 \/ r2collect1 \/ r3collect1 \/ r4collect1))) /\
+([] (r1collect1 -> (<>[0,6] ((([][0,1] r1mailbox1) \/ ([][0,1] r1mailbox2)) /\ <> ([] r1parking1))))) /\
+([] (r2collect1 -> (<>[0,6] ((([][0,1] r2mailbox1) \/ ([][0,1] r2mailbox2)) /\ <> ([] r2parking2))))) /\
+([] (r3collect1 -> (<>[0,6] ((([][0,1] r3mailbox1) \/ ([][0,1] r3mailbox2)) /\ <> ([] r3parking3))))) /\
+([] (r4collect1 -> (<>[0,6] ((([][0,1] r4mailbox1) \/ ([][0,1] r4mailbox2)) /\ <> ([] r4parking4))))) /\
+(<>[12,18] ([][0,2] (r1collect2 \/ r2collect2 \/ r3collect2 \/ r4collect2 ))) /\
+([] (r1collect2 -> (<>[0,6] ((([][0,1] r1mailbox1) \/ ([][0,1] r1mailbox2)) /\ <>([] r1parking1))))) /\
+([] (r2collect2 -> (<>[0,6] ((([][0,1] r2mailbox1) \/ ([][0,1] r2mailbox2)) /\ <>([] r2parking2))))) /\
+([] (r3collect2 -> (<>[0,6] ((([][0,1] r3mailbox1) \/ ([][0,1] r3mailbox2)) /\ <>([] r3parking3))))) /\
+([] (r4collect2 -> (<>[0,6] ((([][0,1] r4mailbox1) \/ ([][0,1] r4mailbox2)) /\ <>([] r4parking4)))))
+

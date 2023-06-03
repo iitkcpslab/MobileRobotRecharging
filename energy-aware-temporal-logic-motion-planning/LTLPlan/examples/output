@@ -1,0 +1,1 @@
+((! (true U (!(((true U ((r1pick) /\ (true U (r1drop))))) /\ (r1chrg))))))

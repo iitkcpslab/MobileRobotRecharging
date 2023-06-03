@@ -1,0 +1,1 @@
+((false R ((true U (r1gather2 /\ ((true U r1upload2))))))) /\ ((false R ((true U (r2gather3 /\ ((true U r2upload1))))))) /\ ((false R ((true U (r3gather4 /\ ((true U r3upload1)))))))

@@ -1,0 +1,101 @@
+sat
+x_1_1 5
+x_1_2 5
+x_1_3 5
+x_1_4 5
+x_1_5 6
+x_1_6 8
+x_1_7 10
+x_1_8 11
+x_1_9 11
+x_1_10 11
+x_1_11 10
+x_1_12 8
+x_1_13 6
+x_1_14 5
+y_1_1 0
+y_1_2 0
+y_1_3 1
+y_1_4 3
+y_1_5 5
+y_1_6 6
+y_1_7 5
+y_1_8 3
+y_1_9 1
+y_1_10 0
+y_1_11 0
+y_1_12 0
+y_1_13 0
+y_1_14 0
+vel_i_1_1 0
+vel_i_1_2 0
+vel_i_1_3 7
+vel_i_1_4 7
+vel_i_1_5 5
+vel_i_1_6 3
+vel_i_1_7 1
+vel_i_1_8 8
+vel_i_1_9 8
+vel_i_1_10 0
+vel_i_1_11 4
+vel_i_1_12 4
+vel_i_1_13 4
+vel_f_1_1 0
+vel_f_1_2 7
+vel_f_1_3 7
+vel_f_1_4 5
+vel_f_1_5 3
+vel_f_1_6 1
+vel_f_1_7 8
+vel_f_1_8 8
+vel_f_1_9 0
+vel_f_1_10 4
+vel_f_1_11 4
+vel_f_1_12 4
+vel_f_1_13 0
+x_f_1_1 0
+x_f_1_2 0
+x_f_1_3 0
+x_f_1_4 1
+x_f_1_5 2
+x_f_1_6 2
+x_f_1_7 1
+x_f_1_8 0
+x_f_1_9 0
+x_f_1_10 (- 1)
+x_f_1_11 (- 2)
+x_f_1_12 (- 2)
+x_f_1_13 (- 1)
+y_f_1_1 0
+y_f_1_2 1
+y_f_1_3 2
+y_f_1_4 2
+y_f_1_5 1
+y_f_1_6 (- 1)
+y_f_1_7 (- 2)
+y_f_1_8 (- 2)
+y_f_1_9 (- 1)
+y_f_1_10 0
+y_f_1_11 0
+y_f_1_12 0
+y_f_1_13 0
+total_cost (/ 730058996.0 48828125.0)
+station_x_1 16
+station_y_1 3
+station_x_2 7
+station_y_2 10
+station_x_3 3
+station_y_3 10
+l_1 false
+l_2 true
+l_3 false
+l_4 false
+l_5 false
+l_6 false
+l_7 false
+l_8 false
+l_9 false
+l_10 false
+l_11 false
+l_12 false
+l_13 false

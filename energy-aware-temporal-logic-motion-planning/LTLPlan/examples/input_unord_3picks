@@ -1,0 +1,1 @@
+([](((<>(r1pick1)) /\ (<>(r1pick2)) /\ (<>(r1pick3))) /\ ((r1pick1) -> (<>(r1drop))) /\ ((r1pick2) -> (<>(r1drop))) /\ ((r1pick3) -> (<>(r1drop))) /\ r1chrg))
