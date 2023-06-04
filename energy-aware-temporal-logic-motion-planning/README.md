@@ -53,26 +53,16 @@ Following input files contain input parameters to the program. Here, we mention 
 <max x coordinate>
 <max y coordinate>
 <no. of worker robots>
-<original hyperloop length>
-<max. recharge amount per unit time>
-<no. of recharger robots>
+<start position>
+<end position>
+<no. of points on the trajectory>
+<maximum cost>
 
 
-2. rob1_traj.txt (contains worker-1 details, similar input files for other worker robots)
-<full charge amount>
-<no. of trajectory points>
-<position of trajectory point 1>
-<position of trajectory point 2> 
-and so on ...
-<charge cost for moving from point-1 to point-2>
-<charge cost for moving from point-2 to point-3>
-and so on ...
+2. obstacle.txt contains obstacle grid positions (2-D)
 
 
-3. obstacle.txt contains obstacle grid positions (2-D)
-
-
-4. 2d_template.txt contains motion primitive details
+3. 2d_template.txt contains motion primitive details
 <primitive id>
 <initial velocity>
 <final velocity>
@@ -81,7 +71,7 @@ and so on ...
 <time required to apply this primitive>
 <swath locations from the current location, while applied>
 
-5. input contains the LTL formula 
+4. input contains the LTL formula 
 
 Similarly, details of other primitives are captured.
 
