@@ -14,6 +14,8 @@ Brief description of the projects are as below (latest first):
 
 4. mobile-rechargers-optimal-deployment :  Energy-aware Temporal Logic Motion Planning for Mobile Robots (ICRA-2019) 
 
+5. charging-stn-placement-smt : Charging Station Placement for Indoor Robotic Applications (ICRA-2018)
+
 
 The publications of Dr. Tanmoy Kundu can be found in this link : https://tanmoy1040.wixsite.com/researchprofile/publications.
 
