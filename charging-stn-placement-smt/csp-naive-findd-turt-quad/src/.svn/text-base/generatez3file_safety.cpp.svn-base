@@ -1,0 +1,43 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <math.h>
+#include "primitive.h"
+#include "readinputs.h"
+#include "writeconstraints.h"
+#include "writeinvariantspecification.h"
+#include "generatez3file.h"
+using namespace std;
+
+
+void generateZ3File(prim_vec_t primitives, pos_vec_t obstacles, workspace_t workspace)
+{ 
+  ofstream ofp;
+  
+  ofp.open("constraints.smt2");
+ 
+  declareVariables(ofp, workspace); 
+  writeInitialLocationConstraints(ofp, workspace);
+  writeTransitionConstraints(ofp, primitives, obstacles, workspace);
+  writeCollisionAvoidanceConstraints2(ofp, primitives, workspace);
+  writeCostConstraint(ofp, workspace);
+  
+  ofp << "(check-sat)" << endl;
+  //ofp << "(get-model)" << endl;
+  writeOutputConstraints(ofp, workspace);
+ 
+  writeFinalDestinationConstraints(ofp, workspace);
+  //writeFinalDestinationConstraints1(ofp, workspace);
+  //writeFinalDestinationConstraints2(ofp, workspace);
+  //writeFinalDestinationConstraints3(ofp, workspace);
+
+  //writeFormationConstraints(ofp, workspace);
+  //ofp << endl;  
+  //writePrecedenceConstraints(ofp, workspace);
+  //ofp << endl;
+  writeDistanceConstraints(ofp, workspace);
+  ofp << endl;
+ 
+  ofp.close();
+}

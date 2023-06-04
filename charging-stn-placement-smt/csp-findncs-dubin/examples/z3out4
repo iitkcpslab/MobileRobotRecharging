@@ -1,0 +1,3 @@
+unsat
+(obs-2-3 a3_1$1@)
+(error "line 862566 column 10: model is not available")

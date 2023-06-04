@@ -1,0 +1,417 @@
+sat
+(error "line 1787 column 15: unsat core is not available")
+(model 
+  (define-fun obs-9-10 () Bool
+    true)
+  (define-fun obs-13-12 () Bool
+    true)
+  (define-fun destx2 () Int
+    11)
+  (define-fun obs-2-4 () Bool
+    true)
+  (define-fun obs-3-3 () Bool
+    true)
+  (define-fun obs-13-9 () Bool
+    true)
+  (define-fun desty4 () Int
+    11)
+  (define-fun obs-5-12 () Bool
+    true)
+  (define-fun obs-1-13 () Bool
+    true)
+  (define-fun obs-13-13 () Bool
+    true)
+  (define-fun obs-5-13 () Bool
+    true)
+  (define-fun obs-8-8 () Bool
+    true)
+  (define-fun obs-9-9 () Bool
+    true)
+  (define-fun destx4 () Int
+    4)
+  (define-fun obs-5-3 () Bool
+    true)
+  (define-fun obs-13-7 () Bool
+    true)
+  (define-fun obs-11-13 () Bool
+    true)
+  (define-fun obs-14-3 () Bool
+    true)
+  (define-fun obs-8-3 () Bool
+    true)
+  (define-fun obs-4-13 () Bool
+    true)
+  (define-fun obs-10-13 () Bool
+    true)
+  (define-fun obs-9-13 () Bool
+    true)
+  (define-fun obs-11-3 () Bool
+    true)
+  (define-fun obs-12-13 () Bool
+    true)
+  (define-fun obs-5-11 () Bool
+    true)
+  (define-fun obs-12-3 () Bool
+    true)
+  (define-fun obs-11-6 () Bool
+    true)
+  (define-fun desty3 () Int
+    14)
+  (define-fun obs-5-6 () Bool
+    true)
+  (define-fun obs-8-6 () Bool
+    true)
+  (define-fun obs-2-3 () Bool
+    true)
+  (define-fun obs-7-3 () Bool
+    true)
+  (define-fun obs-8-9 () Bool
+    true)
+  (define-fun obs-8-5 () Bool
+    true)
+  (define-fun obs-5-8 () Bool
+    true)
+  (define-fun obs-9-11 () Bool
+    true)
+  (define-fun desty2 () Int
+    14)
+  (define-fun desty1 () Int
+    3)
+  (define-fun desty5 () Int
+    2)
+  (define-fun obs-5-9 () Bool
+    true)
+  (define-fun obs-5-7 () Bool
+    true)
+  (define-fun obs-2-13 () Bool
+    true)
+  (define-fun obs-13-8 () Bool
+    true)
+  (define-fun obs-8-7 () Bool
+    true)
+  (define-fun obs-6-3 () Bool
+    true)
+  (define-fun obs-12-6 () Bool
+    true)
+  (define-fun obs-9-12 () Bool
+    true)
+  (define-fun obs-4-3 () Bool
+    true)
+  (define-fun obs-13-6 () Bool
+    true)
+  (define-fun obs-11-5 () Bool
+    true)
+  (define-fun obs-13-11 () Bool
+    true)
+  (define-fun destx5 () Int
+    13)
+  (define-fun obs-3-13 () Bool
+    true)
+  (define-fun obs-11-4 () Bool
+    true)
+  (define-fun obs-8-4 () Bool
+    true)
+  (define-fun obs-5-10 () Bool
+    true)
+  (define-fun obs-13-3 () Bool
+    true)
+  (define-fun obs-15-3 () Bool
+    true)
+  (define-fun destx1 () Int
+    9)
+  (define-fun obs-13-10 () Bool
+    true)
+  (define-fun destx3 () Int
+    13)
+  (define-fun obstacle ((x!1 Int) (x!2 Int)) Bool
+    (ite (and (= x!1 0) (= x!2 0)) false
+    (ite (and (= x!1 0) (= x!2 1)) false
+    (ite (and (= x!1 0) (= x!2 2)) false
+    (ite (and (= x!1 0) (= x!2 3)) false
+    (ite (and (= x!1 0) (= x!2 4)) false
+    (ite (and (= x!1 0) (= x!2 5)) false
+    (ite (and (= x!1 0) (= x!2 6)) false
+    (ite (and (= x!1 0) (= x!2 7)) false
+    (ite (and (= x!1 0) (= x!2 8)) false
+    (ite (and (= x!1 0) (= x!2 9)) false
+    (ite (and (= x!1 0) (= x!2 10)) false
+    (ite (and (= x!1 0) (= x!2 11)) false
+    (ite (and (= x!1 0) (= x!2 12)) false
+    (ite (and (= x!1 0) (= x!2 13)) false
+    (ite (and (= x!1 0) (= x!2 14)) false
+    (ite (and (= x!1 0) (= x!2 15)) false
+    (ite (and (= x!1 0) (= x!2 16)) false
+    (ite (and (= x!1 1) (= x!2 0)) false
+    (ite (and (= x!1 1) (= x!2 1)) false
+    (ite (and (= x!1 1) (= x!2 2)) false
+    (ite (and (= x!1 1) (= x!2 3)) false
+    (ite (and (= x!1 1) (= x!2 4)) false
+    (ite (and (= x!1 1) (= x!2 5)) false
+    (ite (and (= x!1 1) (= x!2 6)) false
+    (ite (and (= x!1 1) (= x!2 7)) false
+    (ite (and (= x!1 1) (= x!2 8)) false
+    (ite (and (= x!1 1) (= x!2 9)) false
+    (ite (and (= x!1 1) (= x!2 10)) false
+    (ite (and (= x!1 1) (= x!2 11)) false
+    (ite (and (= x!1 1) (= x!2 12)) false
+    (ite (and (= x!1 1) (= x!2 13)) true
+    (ite (and (= x!1 1) (= x!2 14)) false
+    (ite (and (= x!1 1) (= x!2 15)) false
+    (ite (and (= x!1 1) (= x!2 16)) false
+    (ite (and (= x!1 2) (= x!2 0)) false
+    (ite (and (= x!1 2) (= x!2 1)) false
+    (ite (and (= x!1 2) (= x!2 2)) false
+    (ite (and (= x!1 2) (= x!2 3)) true
+    (ite (and (= x!1 2) (= x!2 4)) true
+    (ite (and (= x!1 2) (= x!2 5)) false
+    (ite (and (= x!1 2) (= x!2 6)) false
+    (ite (and (= x!1 2) (= x!2 7)) false
+    (ite (and (= x!1 2) (= x!2 8)) false
+    (ite (and (= x!1 2) (= x!2 9)) false
+    (ite (and (= x!1 2) (= x!2 10)) false
+    (ite (and (= x!1 2) (= x!2 11)) false
+    (ite (and (= x!1 2) (= x!2 12)) false
+    (ite (and (= x!1 2) (= x!2 13)) true
+    (ite (and (= x!1 2) (= x!2 14)) false
+    (ite (and (= x!1 2) (= x!2 15)) false
+    (ite (and (= x!1 2) (= x!2 16)) false
+    (ite (and (= x!1 3) (= x!2 0)) false
+    (ite (and (= x!1 3) (= x!2 1)) false
+    (ite (and (= x!1 3) (= x!2 2)) false
+    (ite (and (= x!1 3) (= x!2 3)) true
+    (ite (and (= x!1 3) (= x!2 4)) false
+    (ite (and (= x!1 3) (= x!2 5)) false
+    (ite (and (= x!1 3) (= x!2 6)) false
+    (ite (and (= x!1 3) (= x!2 7)) false
+    (ite (and (= x!1 3) (= x!2 8)) false
+    (ite (and (= x!1 3) (= x!2 9)) false
+    (ite (and (= x!1 3) (= x!2 10)) false
+    (ite (and (= x!1 3) (= x!2 11)) false
+    (ite (and (= x!1 3) (= x!2 12)) false
+    (ite (and (= x!1 3) (= x!2 13)) true
+    (ite (and (= x!1 3) (= x!2 14)) false
+    (ite (and (= x!1 3) (= x!2 15)) false
+    (ite (and (= x!1 3) (= x!2 16)) false
+    (ite (and (= x!1 4) (= x!2 0)) false
+    (ite (and (= x!1 4) (= x!2 1)) false
+    (ite (and (= x!1 4) (= x!2 2)) false
+    (ite (and (= x!1 4) (= x!2 3)) true
+    (ite (and (= x!1 4) (= x!2 4)) false
+    (ite (and (= x!1 4) (= x!2 5)) false
+    (ite (and (= x!1 4) (= x!2 6)) false
+    (ite (and (= x!1 4) (= x!2 7)) false
+    (ite (and (= x!1 4) (= x!2 8)) false
+    (ite (and (= x!1 4) (= x!2 9)) false
+    (ite (and (= x!1 4) (= x!2 10)) false
+    (ite (and (= x!1 4) (= x!2 11)) false
+    (ite (and (= x!1 4) (= x!2 12)) false
+    (ite (and (= x!1 4) (= x!2 13)) true
+    (ite (and (= x!1 4) (= x!2 14)) false
+    (ite (and (= x!1 4) (= x!2 15)) false
+    (ite (and (= x!1 4) (= x!2 16)) false
+    (ite (and (= x!1 5) (= x!2 0)) false
+    (ite (and (= x!1 5) (= x!2 1)) false
+    (ite (and (= x!1 5) (= x!2 2)) false
+    (ite (and (= x!1 5) (= x!2 3)) true
+    (ite (and (= x!1 5) (= x!2 4)) false
+    (ite (and (= x!1 5) (= x!2 5)) false
+    (ite (and (= x!1 5) (= x!2 6)) true
+    (ite (and (= x!1 5) (= x!2 7)) true
+    (ite (and (= x!1 5) (= x!2 8)) true
+    (ite (and (= x!1 5) (= x!2 9)) true
+    (ite (and (= x!1 5) (= x!2 10)) true
+    (ite (and (= x!1 5) (= x!2 11)) true
+    (ite (and (= x!1 5) (= x!2 12)) true
+    (ite (and (= x!1 5) (= x!2 13)) true
+    (ite (and (= x!1 5) (= x!2 14)) false
+    (ite (and (= x!1 5) (= x!2 15)) false
+    (ite (and (= x!1 5) (= x!2 16)) false
+    (ite (and (= x!1 6) (= x!2 0)) false
+    (ite (and (= x!1 6) (= x!2 1)) false
+    (ite (and (= x!1 6) (= x!2 2)) false
+    (ite (and (= x!1 6) (= x!2 3)) true
+    (ite (and (= x!1 6) (= x!2 4)) false
+    (ite (and (= x!1 6) (= x!2 5)) false
+    (ite (and (= x!1 6) (= x!2 6)) false
+    (ite (and (= x!1 6) (= x!2 7)) false
+    (ite (and (= x!1 6) (= x!2 8)) false
+    (ite (and (= x!1 6) (= x!2 9)) false
+    (ite (and (= x!1 6) (= x!2 10)) false
+    (ite (and (= x!1 6) (= x!2 11)) false
+    (ite (and (= x!1 6) (= x!2 12)) false
+    (ite (and (= x!1 6) (= x!2 13)) false
+    (ite (and (= x!1 6) (= x!2 14)) false
+    (ite (and (= x!1 6) (= x!2 15)) false
+    (ite (and (= x!1 6) (= x!2 16)) false
+    (ite (and (= x!1 7) (= x!2 0)) false
+    (ite (and (= x!1 7) (= x!2 1)) false
+    (ite (and (= x!1 7) (= x!2 2)) false
+    (ite (and (= x!1 7) (= x!2 3)) true
+    (ite (and (= x!1 7) (= x!2 4)) false
+    (ite (and (= x!1 7) (= x!2 5)) false
+    (ite (and (= x!1 7) (= x!2 6)) false
+    (ite (and (= x!1 7) (= x!2 7)) false
+    (ite (and (= x!1 7) (= x!2 8)) false
+    (ite (and (= x!1 7) (= x!2 9)) false
+    (ite (and (= x!1 7) (= x!2 10)) false
+    (ite (and (= x!1 7) (= x!2 11)) false
+    (ite (and (= x!1 7) (= x!2 12)) false
+    (ite (and (= x!1 7) (= x!2 13)) false
+    (ite (and (= x!1 7) (= x!2 14)) false
+    (ite (and (= x!1 7) (= x!2 15)) false
+    (ite (and (= x!1 7) (= x!2 16)) false
+    (ite (and (= x!1 8) (= x!2 0)) false
+    (ite (and (= x!1 8) (= x!2 1)) false
+    (ite (and (= x!1 8) (= x!2 2)) false
+    (ite (and (= x!1 8) (= x!2 3)) true
+    (ite (and (= x!1 8) (= x!2 4)) true
+    (ite (and (= x!1 8) (= x!2 5)) true
+    (ite (and (= x!1 8) (= x!2 6)) true
+    (ite (and (= x!1 8) (= x!2 7)) true
+    (ite (and (= x!1 8) (= x!2 8)) true
+    (ite (and (= x!1 8) (= x!2 9)) true
+    (ite (and (= x!1 8) (= x!2 10)) false
+    (ite (and (= x!1 8) (= x!2 11)) false
+    (ite (and (= x!1 8) (= x!2 12)) false
+    (ite (and (= x!1 8) (= x!2 13)) false
+    (ite (and (= x!1 8) (= x!2 14)) false
+    (ite (and (= x!1 8) (= x!2 15)) false
+    (ite (and (= x!1 8) (= x!2 16)) false
+    (ite (and (= x!1 9) (= x!2 0)) false
+    (ite (and (= x!1 9) (= x!2 1)) false
+    (ite (and (= x!1 9) (= x!2 2)) false
+    (ite (and (= x!1 9) (= x!2 3)) false
+    (ite (and (= x!1 9) (= x!2 4)) false
+    (ite (and (= x!1 9) (= x!2 5)) false
+    (ite (and (= x!1 9) (= x!2 6)) false
+    (ite (and (= x!1 9) (= x!2 7)) false
+    (ite (and (= x!1 9) (= x!2 8)) false
+    (ite (and (= x!1 9) (= x!2 9)) true
+    (ite (and (= x!1 9) (= x!2 10)) true
+    (ite (and (= x!1 9) (= x!2 11)) true
+    (ite (and (= x!1 9) (= x!2 12)) true
+    (ite (and (= x!1 9) (= x!2 13)) true
+    (ite (and (= x!1 9) (= x!2 14)) false
+    (ite (and (= x!1 9) (= x!2 15)) false
+    (ite (and (= x!1 9) (= x!2 16)) false
+    (ite (and (= x!1 10) (= x!2 0)) false
+    (ite (and (= x!1 10) (= x!2 1)) false
+    (ite (and (= x!1 10) (= x!2 2)) false
+    (ite (and (= x!1 10) (= x!2 3)) false
+    (ite (and (= x!1 10) (= x!2 4)) false
+    (ite (and (= x!1 10) (= x!2 5)) false
+    (ite (and (= x!1 10) (= x!2 6)) false
+    (ite (and (= x!1 10) (= x!2 7)) false
+    (ite (and (= x!1 10) (= x!2 8)) false
+    (ite (and (= x!1 10) (= x!2 9)) false
+    (ite (and (= x!1 10) (= x!2 10)) false
+    (ite (and (= x!1 10) (= x!2 11)) false
+    (ite (and (= x!1 10) (= x!2 12)) false
+    (ite (and (= x!1 10) (= x!2 13)) true
+    (ite (and (= x!1 10) (= x!2 14)) false
+    (ite (and (= x!1 10) (= x!2 15)) false
+    (ite (and (= x!1 10) (= x!2 16)) false
+    (ite (and (= x!1 11) (= x!2 0)) false
+    (ite (and (= x!1 11) (= x!2 1)) false
+    (ite (and (= x!1 11) (= x!2 2)) false
+    (ite (and (= x!1 11) (= x!2 3)) true
+    (ite (and (= x!1 11) (= x!2 4)) true
+    (ite (and (= x!1 11) (= x!2 5)) true
+    (ite (and (= x!1 11) (= x!2 6)) true
+    (ite (and (= x!1 11) (= x!2 7)) false
+    (ite (and (= x!1 11) (= x!2 8)) false
+    (ite (and (= x!1 11) (= x!2 9)) false
+    (ite (and (= x!1 11) (= x!2 10)) false
+    (ite (and (= x!1 11) (= x!2 11)) false
+    (ite (and (= x!1 11) (= x!2 12)) false
+    (ite (and (= x!1 11) (= x!2 13)) true
+    (ite (and (= x!1 11) (= x!2 14)) false
+    (ite (and (= x!1 11) (= x!2 15)) false
+    (ite (and (= x!1 11) (= x!2 16)) false
+    (ite (and (= x!1 12) (= x!2 0)) false
+    (ite (and (= x!1 12) (= x!2 1)) false
+    (ite (and (= x!1 12) (= x!2 2)) false
+    (ite (and (= x!1 12) (= x!2 3)) true
+    (ite (and (= x!1 12) (= x!2 4)) false
+    (ite (and (= x!1 12) (= x!2 5)) false
+    (ite (and (= x!1 12) (= x!2 6)) true
+    (ite (and (= x!1 12) (= x!2 7)) false
+    (ite (and (= x!1 12) (= x!2 8)) false
+    (ite (and (= x!1 12) (= x!2 9)) false
+    (ite (and (= x!1 12) (= x!2 10)) false
+    (ite (and (= x!1 12) (= x!2 11)) false
+    (ite (and (= x!1 12) (= x!2 12)) false
+    (ite (and (= x!1 12) (= x!2 13)) true
+    (ite (and (= x!1 12) (= x!2 14)) false
+    (ite (and (= x!1 12) (= x!2 15)) false
+    (ite (and (= x!1 12) (= x!2 16)) false
+    (ite (and (= x!1 13) (= x!2 0)) false
+    (ite (and (= x!1 13) (= x!2 1)) false
+    (ite (and (= x!1 13) (= x!2 2)) false
+    (ite (and (= x!1 13) (= x!2 3)) true
+    (ite (and (= x!1 13) (= x!2 4)) false
+    (ite (and (= x!1 13) (= x!2 5)) false
+    (ite (and (= x!1 13) (= x!2 6)) true
+    (ite (and (= x!1 13) (= x!2 7)) true
+    (ite (and (= x!1 13) (= x!2 8)) true
+    (ite (and (= x!1 13) (= x!2 9)) true
+    (ite (and (= x!1 13) (= x!2 10)) true
+    (ite (and (= x!1 13) (= x!2 11)) true
+    (ite (and (= x!1 13) (= x!2 12)) true
+    (ite (and (= x!1 13) (= x!2 13)) true
+    (ite (and (= x!1 13) (= x!2 14)) false
+    (ite (and (= x!1 13) (= x!2 15)) false
+    (ite (and (= x!1 13) (= x!2 16)) false
+    (ite (and (= x!1 14) (= x!2 0)) false
+    (ite (and (= x!1 14) (= x!2 1)) false
+    (ite (and (= x!1 14) (= x!2 2)) false
+    (ite (and (= x!1 14) (= x!2 3)) true
+    (ite (and (= x!1 14) (= x!2 4)) false
+    (ite (and (= x!1 14) (= x!2 5)) false
+    (ite (and (= x!1 14) (= x!2 6)) false
+    (ite (and (= x!1 14) (= x!2 7)) false
+    (ite (and (= x!1 14) (= x!2 8)) false
+    (ite (and (= x!1 14) (= x!2 9)) false
+    (ite (and (= x!1 14) (= x!2 10)) false
+    (ite (and (= x!1 14) (= x!2 11)) false
+    (ite (and (= x!1 14) (= x!2 12)) false
+    (ite (and (= x!1 14) (= x!2 13)) false
+    (ite (and (= x!1 14) (= x!2 14)) false
+    (ite (and (= x!1 14) (= x!2 15)) false
+    (ite (and (= x!1 14) (= x!2 16)) false
+    (ite (and (= x!1 15) (= x!2 0)) false
+    (ite (and (= x!1 15) (= x!2 1)) false
+    (ite (and (= x!1 15) (= x!2 2)) false
+    (ite (and (= x!1 15) (= x!2 3)) true
+    (ite (and (= x!1 15) (= x!2 4)) false
+    (ite (and (= x!1 15) (= x!2 5)) false
+    (ite (and (= x!1 15) (= x!2 6)) false
+    (ite (and (= x!1 15) (= x!2 7)) false
+    (ite (and (= x!1 15) (= x!2 8)) false
+    (ite (and (= x!1 15) (= x!2 9)) false
+    (ite (and (= x!1 15) (= x!2 10)) false
+    (ite (and (= x!1 15) (= x!2 11)) false
+    (ite (and (= x!1 15) (= x!2 12)) false
+    (ite (and (= x!1 15) (= x!2 13)) false
+    (ite (and (= x!1 15) (= x!2 14)) false
+    (ite (and (= x!1 15) (= x!2 15)) false
+    (ite (and (= x!1 15) (= x!2 16)) false
+    (ite (and (= x!1 16) (= x!2 0)) false
+    (ite (and (= x!1 16) (= x!2 1)) false
+    (ite (and (= x!1 16) (= x!2 2)) false
+    (ite (and (= x!1 16) (= x!2 3)) false
+    (ite (and (= x!1 16) (= x!2 4)) false
+    (ite (and (= x!1 16) (= x!2 5)) false
+    (ite (and (= x!1 16) (= x!2 6)) false
+    (ite (and (= x!1 16) (= x!2 7)) false
+    (ite (and (= x!1 16) (= x!2 8)) false
+    (ite (and (= x!1 16) (= x!2 9)) false
+    (ite (and (= x!1 16) (= x!2 10)) false
+    (ite (and (= x!1 16) (= x!2 11)) false
+    (ite (and (= x!1 16) (= x!2 12)) false
+    (ite (and (= x!1 16) (= x!2 13)) false
+    (ite (and (= x!1 16) (= x!2 14)) false
+    (ite (and (= x!1 16) (= x!2 15)) false
+    (ite (and (= x!1 16) (= x!2 16)) false
+      false))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+)

@@ -1,0 +1,53 @@
+  (define-fun desty6 () Int
+    6)
+--
+  (define-fun desty5 () Int
+    9)
+--
+  (define-fun desty1 () Int
+    4)
+--
+  (define-fun desty7 () Int
+    1)
+--
+  (define-fun desty4 () Int
+    3)
+--
+  (define-fun destx2 () Int
+    5)
+--
+  (define-fun destx4 () Int
+    10)
+--
+  (define-fun desty9 () Int
+    4)
+--
+  (define-fun desty8 () Int
+    9)
+--
+  (define-fun desty3 () Int
+    11)
+--
+  (define-fun destx9 () Int
+    1)
+--
+  (define-fun destx5 () Int
+    0)
+--
+  (define-fun destx8 () Int
+    11)
+--
+  (define-fun desty2 () Int
+    0)
+--
+  (define-fun destx1 () Int
+    9)
+--
+  (define-fun destx6 () Int
+    3)
+--
+  (define-fun destx7 () Int
+    11)
+--
+  (define-fun destx3 () Int
+    9)

@@ -1,0 +1,3 @@
+unsat
+(obs-1-13 obs-2-13 obs-3-13 obs-4-13 obs-5-8 obs-5-10 obs-5-11 obs-5-12 obs-5-13 obs-8-8 obs-8-9 obs-9-10 obs-9-11 obs-9-12 obs-9-13 obs-13-12 a0_12$3@ a2_15$1@ a7_12$0@ a7_13$2@)
+(error "line 866512 column 10: model is not available")

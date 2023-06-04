@@ -1,0 +1,21 @@
+void generateZ3File(prim_vec_t , pos_vec_t, workspace_t );
+void generateZ3APIFile(prim_vec_t , pos_vec_t, workspace_t );
+
+//void writeCollisionAvoidanceConstraints1(ofstream & , prim_vec_t , workspace_t );
+//void writeCollisionAvoidanceConstraints2(ofstream & , prim_vec_t , workspace_t );
+
+//void writeFormationConstraints(ofstream & , workspace_t );
+//void writePrecedenceConstraints(ofstream &, workspace_t );
+//void writeDistanceConstraints(ofstream & , workspace_t );
+
+//void definePropositions1(ofstream &, workspace_t );
+//void definePropositions2(ofstream &, workspace_t );
+//void writeLivenessConstraints1(ofstream & , workspace_t );
+//void writeLivenessConstraints2(ofstream & , workspace_t );
+//void writeLivenessConstraints3(ofstream & , workspace_t );
+//void writeLivenessConstraints4(ofstream & , workspace_t );
+
+//void writeOutputConstraints(ofstream & , workspace_t );
+
+//string floatToReal(string );
+//template <typename T> string tostr(const T& );

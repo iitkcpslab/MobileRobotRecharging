@@ -1,0 +1,54 @@
+****** Warehouse 12*12, points=10, SIMPLE ******
+g++ -Wall -c primitive.cpp
+g++ -Wall -c readinputs.cpp
+g++ -Wall -c writeconstraints.cpp
+g++ -Wall -c writespecificationconstraints.cpp
+g++ -Wall -c generatez3file_safety.cpp
+g++ -Wall -c main_z3.cpp
+g++ -Wall primitive.o readinputs.o writeconstraints.o writespecificationconstraints.o generatez3file_safety.o main_z3.o -o tool_z3
+Executable files made..
+Executable files moved to the current directory..
+Checking for cs1
+count of uavs : 312
+getting ucore
+ucore collected
+under flag1
+count of uavs : 0
+cs0: 0 2
+cs1: 11 10
+Checking for cs2
+count of uavs : 312
+getting ucore
+ucore collected
+under flag1
+count of uavs : 0
+cs0: 0 2
+cs1: 11 10
+cs2: 11 10
+Checking for cs3
+count of uavs : 312
+getting ucore
+ucore collected
+under flag1
+count of uavs : 0
+cs0: 0 2
+cs1: 11 10
+cs2: 11 10
+cs3: 11 10
+Checking for cs4
+count of uavs : 312
+getting ucore
+ucore collected
+under flag1
+count of uavs : 0
+cs0: 0 2
+cs1: 11 10
+cs2: 11 10
+cs3: 11 10
+cs4: 11 10
+Checking for cs5
+count of uavs : 312
+=============================================================
+****** Warehouse 12*12, points=10, QUADCOPTER ******
+g++ -Wall -c primitive.cpp
+Makefile_safety:13: recipe for target 'primitive.o' failed

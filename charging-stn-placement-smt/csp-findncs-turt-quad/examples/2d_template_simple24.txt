@@ -1,0 +1,197 @@
+ID:0
+q_i:[1]
+q_f:[6]
+pos_f:[1, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [1, 0]
+
+ID:1
+q_i:[1]
+q_f:[1]
+pos_f:[1, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [1, 0]
+
+ID:2
+q_i:[6]
+q_f:[6]
+pos_f:[0, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]
+
+ID:3
+q_i:[6]
+q_f:[1]
+pos_f:[1, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [1, 0]
+
+ID:4
+q_i:[6]
+q_f:[2]
+pos_f:[0, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]
+
+ID:5
+q_i:[6]
+q_f:[4]
+pos_f:[0, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]
+
+
+
+ID:6
+q_i:[2]
+q_f:[7]
+pos_f:[0, 1]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [0, 1]
+
+ID:7
+q_i:[2]
+q_f:[2]
+pos_f:[0, 1]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [0, 1]
+
+ID:8
+q_i:[7]
+q_f:[7]
+pos_f:[0, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]
+
+ID:9
+q_i:[7]
+q_f:[2]
+pos_f:[0, 1]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]; [0, 1]
+
+ID:10
+q_i:[7]
+q_f:[3]
+pos_f:[0, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]
+
+ID:11
+q_i:[7]
+q_f:[1]
+pos_f:[0, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]
+
+
+ID:12
+q_i:[3]
+q_f:[8]
+pos_f:[-1, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [-1, 0]
+
+ID:13
+q_i:[3]
+q_f:[3]
+pos_f:[-1, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [-1, 0]
+
+ID:14
+q_i:[8]
+q_f:[8]
+pos_f:[0, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]
+
+ID:15
+q_i:[8]
+q_f:[3]
+pos_f:[-1, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]; [-1, 0]
+
+ID:16
+q_i:[8]
+q_f:[4]
+pos_f:[0, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]
+
+ID:17
+q_i:[8]
+q_f:[2]
+pos_f:[0, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]
+
+
+ID:18
+q_i:[4]
+q_f:[9]
+pos_f:[0, -1]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [0, -1]
+
+ID:19
+q_i:[4]
+q_f:[4]
+pos_f:[0, -1]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]; [0, -1]
+
+ID:20
+q_i:[9]
+q_f:[9]
+pos_f:[0, 0]
+cost:0.298756961604
+duration:0.8
+swath: [0, 0]
+
+ID:21
+q_i:[9]
+q_f:[4]
+pos_f:[0, -1]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]; [0, -1]
+
+ID:22
+q_i:[9]
+q_f:[1]
+pos_f:[0, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]
+
+ID:23
+q_i:[9]
+q_f:[3]
+pos_f:[0, 0]
+cost:1.07343467751
+duration:0.8
+swath: [0, 0]
+
+
