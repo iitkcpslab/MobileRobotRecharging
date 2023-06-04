@@ -31,14 +31,18 @@ HOW TO RUN:
 a) Move to directory  ``energy-aware-temporal-logic-motion-planning/<approach-name>/examples''.
 
 b) Following input files are needed in the ``charging-stn-placement-smt/<approach-name>/examples'' directory:
+
      workspace.txt  obstacle.txt  2d_template.txt input
 
 c) Execute the following from ../examples directory.
 
+ 
  ./run.sh tool\_z3 \<perturbation\>  for  csp-findncs-turt-quad  and  csp-findncs-dubin
+ 
  ./run.sh tool\_z3 \<fixed_ncs_value>\ \<perturbation\>  for  csp-findd-turt-quad  and  csp-findd-dubin
  
- ./run.sh tool\_z3 \<fixed_param_value>\>  for  csp-naive-findd-turt-quad, csp-naive-findd-dubin and csp-naive-findncs-turt-quad 
+ ./run.sh tool\_z3 \<fixed_param_value\>  for  csp-naive-findd-turt-quad, csp-naive-findd-dubin and csp-naive-findncs-turt-quad
+  
  ./run.sh tool\_z3  for  csp-naive-findd-dubin  and  csp-naive-findncs-dubin
 
 
