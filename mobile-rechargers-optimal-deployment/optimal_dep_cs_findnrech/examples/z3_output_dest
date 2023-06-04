@@ -1,0 +1,35 @@
+  (define-fun dx2_3 () Int
+    3)
+--
+  (define-fun dy2_2 () Int
+    10)
+--
+  (define-fun dx1_3 () Int
+    8)
+--
+  (define-fun dx1_2 () Int
+    8)
+--
+  (define-fun dy2_3 () Int
+    8)
+--
+  (define-fun dy2_1 () Int
+    8)
+--
+  (define-fun dy1_2 () Int
+    3)
+--
+  (define-fun dy1_3 () Int
+    1)
+--
+  (define-fun dx2_2 () Int
+    3)
+--
+  (define-fun dx1_1 () Int
+    8)
+--
+  (define-fun dy1_1 () Int
+    1)
+--
+  (define-fun dx2_1 () Int
+    3)

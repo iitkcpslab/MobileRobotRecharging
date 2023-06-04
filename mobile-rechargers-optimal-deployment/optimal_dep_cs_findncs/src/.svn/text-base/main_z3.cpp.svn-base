@@ -1,0 +1,30 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include "primitive.h"
+#include "readinputs.h"
+#include "generatez3file.h"
+
+using namespace std;
+
+
+int main ()
+{
+  prim_vec_t primitives;
+  pos_vec_t obstacles;
+  workspace_t workspace;
+
+  readPrimitives(primitives); 
+  //writePrimitives(primitives);
+
+  readObstacles(obstacles);
+  //writeObstacles(obstacles);
+  
+  readWorkspace(workspace);
+  //writeWorkspace(workspace);
+
+  generateZ3File(primitives, obstacles, workspace);
+
+  return 0;
+}

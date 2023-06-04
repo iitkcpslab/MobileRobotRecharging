@@ -1,0 +1,21 @@
+Executable files made..
+Executable files moved to the current directory..
+
+prims = QUADCOPTER 57 prims
+obs = WAREHOUSE 17*17
+dimension = 17*17
+number of cs = 18
+
+Checking for points2.....
+Checking for points3.....
+Checking for points4.....
+Checking for points5.....
+Checking for points6.....
+Checking for points7.....
+This is the answer : d = 7
+Fixed (18) no. of cs are as under:
+(11 6) (11 7) (11 7) (11 8) (10 9) (9 10) (8 11) (7 10) (6 9) (5 10) (6 9) (6 8) (6 7) (7 6) (8 5) (9 6) (10 7) (11 6) 
+real	115m47.181s
+user	115m36.272s
+sys	0m8.080s
+

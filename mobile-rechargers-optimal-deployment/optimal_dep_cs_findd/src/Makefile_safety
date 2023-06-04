@@ -1,0 +1,30 @@
+OBJS_Z3 = primitive.o readinputs.o writeconstraints.o generatez3file_safety.o main_z3.o
+
+CC = g++
+CFLAGS = -Wall -c
+LFLAGS = -Wall
+all = tool_z3
+
+
+tool_z3 : $(OBJS_Z3)
+	$(CC) $(LFLAGS) $(OBJS_Z3) -o tool_z3
+
+primitive.o : primitive.h primitive.cpp
+	$(CC) $(CFLAGS) primitive.cpp
+
+readinputs.o : primitive.h readinputs.h readinputs.cpp
+	$(CC) $(CFLAGS) readinputs.cpp
+
+writeconstraints.o : primitive.h readinputs.h writeconstraints.h writeconstraints.cpp
+	$(CC) $(CFLAGS) writeconstraints.cpp
+
+generatez3file_safety.o : primitive.h readinputs.h generatez3file.h generatez3file_safety.cpp
+	$(CC) $(CFLAGS) generatez3file_safety.cpp
+
+main_z3.o : primitive.h readinputs.h generatez3file.h main_z3.cpp
+	$(CC) $(CFLAGS) main_z3.cpp
+
+.PHONY: clean
+clean : 
+	rm -f *.o
+	rm -f tool_*
