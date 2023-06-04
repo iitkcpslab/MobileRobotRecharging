@@ -28,8 +28,8 @@ effective in terms of allowing the autonomous robot to continue
 their work for a longer time.
 
 
-optimal\_dep\_cs\_findncs : Finds the value of ncs for fixed nrech and d values
-optimal\_dep\_cs\_findd : Finds the value of d for fixed nrech and ncs values
+optimal\_dep\_cs\_findncs : Finds the value of ncs for fixed nrech and d values.   
+optimal\_dep\_cs\_findd : Finds the value of d for fixed nrech and ncs values.   
 optimal\_dep\_cs\_findnrech : Finds the value of nrech for fixed ncs and d values
 
 
